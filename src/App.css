@@ -1,0 +1,32 @@
+* {
+  margin:0;
+  padding:0;
+  font-family:'Arial Narrow', Arial, sans-serif
+}
+
+:root {
+  --main-color: #a01107;
+  --second-color: rgb(207, 205, 205);
+}
+
+.header {
+  width: 100%; 
+  background-color: var(--main-color); 
+}
+
+.main {
+padding: 20px;
+}
+
+.header ul {  
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+.header li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px
+}
